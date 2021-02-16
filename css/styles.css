@@ -146,13 +146,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2% 1%;
 }
 
-@media (max-width: 900px) {
-  #title {
+@media (max-width: 1000px) {
+  .big-heading {
     text-align: center;
   }
-
   .image-title {
     position: static;
     transform: rotate(0);
+    margin-left: 20%;
+  }
+  .button-download {
+    text-align: center;
+    margin-left: 10%;
   }
 }
